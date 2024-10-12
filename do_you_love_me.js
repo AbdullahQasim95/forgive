@@ -8,7 +8,7 @@ const hallyTxt = document.querySelector(".hallyTxt");
 
 
 // /change the postion of no button
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   const newX = Math.floor(Math.random() * questionContainer.offsetWidth);
   const newY = Math.floor(Math.random() * questionContainer.offsetWidth);
 
